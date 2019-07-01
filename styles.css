@@ -46,3 +46,23 @@
 .button__image {
     width: 12px;
 }
+
+.carousel__nav {
+    background: pink;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0 15px;
+}
+
+.carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: rgba(0,0,0, 0.3);
+}
+
+.current-slide {
+    background: rgba(0,0,0, 0.75))
+}
